@@ -1,0 +1,35 @@
+.board {
+    width: 800px;
+    margin: auto
+}
+
+.info {
+    width: 800px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+@media(max-width:720px) {
+    .board {
+        width: 800px;
+        margin: auto
+    }
+}
+
+@media(max-width:720px) {
+    .info {
+        width: 800px;
+        margin: auto;
+    }
+}
+
+@media(max-width:720px) {
+    .move-history {
+        max-height: 100px;
+        overflow-y: scroll;
+    }
+}
